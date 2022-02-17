@@ -1,5 +1,10 @@
-f it we're back to 3mux
-https://github.com/aaronjanse/3mux
+tmux tilish:
+install tmux
+install plugin manager https://github.com/tmux-plugins/tpm
+`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+copy tmux.conf from this repo
+https://github.com/jabirali/tmux-tilish
+
 
 remap modifiers to use command as alt:
 https://iterm2.com/documentation-preferences-keys.html
