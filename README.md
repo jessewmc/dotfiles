@@ -4,6 +4,7 @@ install plugin manager https://github.com/tmux-plugins/tpm
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 copy tmux.conf from this repo
 https://github.com/jabirali/tmux-tilish
+`Ctrl + b followed by Shift + i` to install plugins
 
 
 remap modifiers to use command as alt:
