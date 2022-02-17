@@ -24,3 +24,10 @@ resize mode meta+r
 FONT:
 https://github.com/tonsky/FiraCode
 see install instructions
+
+neovim
+`wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim.appimage`
+`chmod +x nvim.appimage`
+`sudo mv nvim.appimage /usr/local/bin/nvim`
+
+Open problems: How to send tmux commands to overmind within tmux ~_~
