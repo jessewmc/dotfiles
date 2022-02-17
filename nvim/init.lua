@@ -12,5 +12,5 @@ vim.opt.listchars = "tab:»·,nbsp:+,trail:·"
 -- make sure << and >> commands indent to multiple of shiftwidth
 vim.opt.shiftround = true
 -- visual ruler at 100 columns wide
-set colorcolumn=100
+set colorcolumn = 100
 --
