@@ -1,28 +1,5 @@
-3mux for terminal multiplexing because I use i3 and tmux has terrible keybindings:
+f it we're back to 3mux
 https://github.com/aaronjanse/3mux
-
-Problems on brew version: https://github.com/aaronjanse/3mux/issues/121
-TLDR: launch with `TMPDIR=/tmp 3mux`
-
-
-install tmux
-install plugin manager https://github.com/tmux-plugins/tpm
-`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
-Put at bottom of tmux.conf:
-```
-# List of plugins
-set -g @plugin 'tmux-plugins/tpm'
-set -g @plugin 'tmux-plugins/tmux-sensible'
-
-# Other examples:
-# set -g @plugin 'github_username/plugin_name'
-# set -g @plugin 'github_username/plugin_name#branch'
-# set -g @plugin 'git@github.com:user/plugin'
-# set -g @plugin 'git@bitbucket.com:user/plugin'
-
-# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
-run '~/.tmux/plugins/tpm/tpm'
-```
 
 remap modifiers to use command as alt:
 https://iterm2.com/documentation-preferences-keys.html
@@ -40,3 +17,4 @@ resize mode meta+r
 
 FONT:
 https://github.com/tonsky/FiraCode
+see install instructions
