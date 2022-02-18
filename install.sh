@@ -60,12 +60,12 @@ function link() {
   ln -s "$from" "$to"
 }
 
-link ~/dotfiles/tmux.conf ~/.tmux.conf
-cp ~/dotfiles/bash-aliases ~/.bash_aliases
+link ~/github/dotfiles/tmux.conf ~/.tmux.conf
+cp ~/github/dotfiles/bash_aliases ~/.bash_aliases
 #link ~/dotfiles/gitconfig ~/.gitconfig
 #link ~/dotfiles/gitignore ~/.gitignore
 
-link ~/dotfiles/nvim ~/.config/nvim
+link ~/github/dotfiles/nvim ~/.config/nvim
 
 echo ""
 echo "All done."
