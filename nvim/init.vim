@@ -19,4 +19,6 @@ set textwidth=100
 " comments w gq
 set formatoptions=tcq
 
+colorscheme solarized
+
 lua require('plugins')
