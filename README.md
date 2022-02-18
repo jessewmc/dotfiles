@@ -30,4 +30,10 @@ neovim
 `chmod +x nvim.appimage`
 `sudo mv nvim.appimage /usr/local/bin/nvim`
 
-Open problems: How to send tmux commands to overmind within tmux ~_~
+Open problems: How to send tmux commands to overmind within tmux
+
+install packer:
+```
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
