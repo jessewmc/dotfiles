@@ -61,7 +61,7 @@ function link() {
 }
 
 link ~/dotfiles/tmux.conf ~/.tmux.conf
-link ~/dotfiles/bash-aliases ~/.bash_aliases
+cp ~/dotfiles/bash-aliases ~/.bash_aliases
 #link ~/dotfiles/gitconfig ~/.gitconfig
 #link ~/dotfiles/gitignore ~/.gitignore
 
