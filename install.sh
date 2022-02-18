@@ -9,10 +9,10 @@
 # by accident. On subsequent runs it will detect that
 # the file is a symlink to ~/dotfiles and ignore it.
 
-echo "Installing fzf"
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf &> /dev/null
-git clone --depth 1 https://github.com/Aloxaf/fzf-tab ~/.fzf-tab &> /dev/null
-~/.fzf/install --key-bindings --completion --no-update-rc --no-bash > /dev/null
+#echo "Installing fzf"
+#git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf &> /dev/null
+#git clone --depth 1 https://github.com/Aloxaf/fzf-tab ~/.fzf-tab &> /dev/null
+#~/.fzf/install --key-bindings --completion --no-update-rc --no-bash > /dev/null
 
 echo "Installing tilish"
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &> /dev/null
