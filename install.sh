@@ -14,8 +14,8 @@
 #git clone --depth 1 https://github.com/Aloxaf/fzf-tab ~/.fzf-tab &> /dev/null
 #~/.fzf/install --key-bindings --completion --no-update-rc --no-bash > /dev/null
 
-echo "Installing tilish"
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &> /dev/null
+#echo "Installing tilish"
+#git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &> /dev/null
 
 echo "Installing neovim"
 curl -sSfLo  "${HOME}/tmp/nvim/nvim.appimage" --create-dirs https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
@@ -49,7 +49,7 @@ function backup() {
   fi
 }
 
-backup ~/.tmux.conf
+#backup ~/.tmux.conf
 backup ~/.bash_aliases
 #backup ~/.gitconfig
 #backup ~/.gitignore
@@ -66,7 +66,7 @@ function link() {
   ln -s "$from" "$to"
 }
 
-link ./tmux.conf ~/.tmux.conf
+#link ./tmux.conf ~/.tmux.conf
 cp ./bash_aliases ~/.bash_aliases
 #link ~/dotfiles/gitconfig ~/.gitconfig
 #link ~/dotfiles/gitignore ~/.gitignore
