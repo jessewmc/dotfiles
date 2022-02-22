@@ -18,9 +18,15 @@ echo "Installing tilish"
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm &> /dev/null
 
 echo "Installing neovim"
-wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim.appimage
-chmod +x nvim.appimage
-mv nvim.appimage /usr/local/bin/nvim
+curl -sSfLo  "${HOME}/tmp/nvim/nvim.appimage" --create-dirs https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x "${HOME}/tmp/nvim/nvim.appimage"
+${HOME}/tmp/nvim/nvim.appimage --appimage-extract 1>/dev/null
+sudo mv squashfs-root /
+sudo ln -sf /squashfs-root/AppRun /usr/bin/nvim
+
+#wget https://github.com/neovim/neovim/releases/download/v0.6.1/nvim.appimage
+#chmod +x nvim.appimage
+#mv nvim.appimage /usr/local/bin/nvim
 
 echo "Installing packer"
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
