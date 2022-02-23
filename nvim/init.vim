@@ -18,6 +18,8 @@ set textwidth=100
 " t auto wrap using text width c auto wrap comments q allow formatting
 " comments w gq
 set formatoptions=tcq
+" case insensitive / search
+set ignorecase
 
 " solarized setup
 " 24 bit colors required
