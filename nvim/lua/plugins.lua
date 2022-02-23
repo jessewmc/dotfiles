@@ -5,7 +5,8 @@ return require('packer').startup(function()
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
   -- solarized theme
-  use 'shaunsingh/solarized.nvim'
+  -- use 'shaunsingh/solarized.nvim'
+  use 'overcache/NeoSolarized'
   -- github link copy :GH
   use 'ruanyl/vim-gh-line'
   -- auto formatting
