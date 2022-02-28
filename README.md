@@ -37,3 +37,15 @@ install packer:
 git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+
+# codespaces
+```
+$ gh codespace ssh --config > ~/.ssh/codespaces
+$ echo 'include ~/.ssh/codespaces' >> ~/.ssh/config'
+```
+To keep the stupid connection alive, send a `ServerAliveInteravl`:
+```
+Host *
+  ServerAliveInterval 60
+```
+http://www.kehlet.cx/articles/129.html
