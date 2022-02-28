@@ -38,7 +38,7 @@ echo "Copying files"
 echo "-----------------"
 
 cp ./bash_aliases ~/.bash_aliases
-cp -R ./nvim ~/.config/
+cp -R ./nvim ~/.config/nvim
 
 echo ""
 echo "All done."
