@@ -5,6 +5,9 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf &> /dev/null
 git clone --depth 1 https://github.com/Aloxaf/fzf-tab ~/.fzf-tab &> /dev/null
 ~/.fzf/install --key-bindings --completion --no-update-rc --no-bash > /dev/null
 
+echo "Installing mcfly"
+curl -LSfs https://raw.githubusercontent.com/cantino/mcfly/master/ci/install.sh | sh -s -- --git cantino/mcfly --to ~/.mcfly
+
 echo "Installing neovim"
 curl -sSfLo  "${HOME}/tmp/nvim/nvim.appimage" --create-dirs https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
 chmod u+x "${HOME}/tmp/nvim/nvim.appimage"
