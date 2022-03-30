@@ -3,4 +3,10 @@ alias vi='nvim'
 
 export PATH="${HOME}/.fzf/bin:${HOME}/.mcfly/:$PATH"
 
-eval "$(mcfly init bash)"
+if [[ -n $ZSH_NAME ]]; then
+  eval "$(mcfly init zsh)"
+fi
+
+if [[ -n $BASH ]]; then
+  eval "$(mcfly init bash)"
+fi
