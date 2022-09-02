@@ -3,6 +3,7 @@ alias vi='nvim'
 
 export PATH="${HOME}/.fzf/bin:${HOME}/.mcfly/:$PATH"
 export EDITOR=nvim
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
 
 if [[ -n $ZSH_NAME ]]; then
   eval "$(mcfly init zsh)"
