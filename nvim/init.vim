@@ -4,6 +4,8 @@ set expandtab
 set scrolloff=999
 " show line numbers
 set number
+" disable mouse reporting
+set mouse=
 " make the gutter width for line numbers 5 digits
 set numberwidth=5
 " show trailing things and other bad whitespace
